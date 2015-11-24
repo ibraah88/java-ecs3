@@ -2,10 +2,10 @@ TCP, programmation Multi-thread en Java, TCP en Java
 
 Pseudo code du serveur :
 
-— le serveur initialise une socket TCP sur le port 12345 et se place en attente de connexion sur cet socket.
+— le serveur initialise un socket TCP sur le port 12345 et se place en attente de connexion sur cet socket.
 
 — sur réception d’une connexion, le serveur crée un nouveau thread de gestion de connexion. Ce thread récupère les flux 
-d’entrée et de sortie associés au socket en le reliant au client se trouvant à l’autre et se met à suivre le protocole de l’application.
+  d’entrée et de sortie associés au socket en le reliant au client se trouvant à l’autre et se met à suivre le protocole de   l’application.
 
 — une fois le thread crée et s’exécutant en parallèle, le serveur se remet à l’écoute d’une connexion sur le socket
 
